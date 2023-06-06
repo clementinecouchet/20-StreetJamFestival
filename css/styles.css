@@ -3,6 +3,7 @@ body {
   margin: auto;
   background: #ddd;
   background-color: #c2e6ea;
+  border: 1px solid #a755b5;
 }
 
 img {
@@ -19,16 +20,13 @@ h2 {
 }
 
 p,
-header {
+header,
+ul li,
+footer {
   font-family: "elza", sans-serif;
   font-weight: 400;
   font-style: normal; 
   font-size: 15px;
-}
-
-video {
-  width: 260px;
-  border-radius: 20px;
 }
 
 header,
@@ -73,9 +71,11 @@ header img,
   text-align: right;
 }
 
-.round-img {
+.round-img,
+video  {
   border-radius: 18px;
   max-width: 250px;
+  margin: 0 0 40px;
 }
 
 .section {
@@ -162,5 +162,33 @@ h3 {
 
 .hour {
   background-color: #c2e6ea;
-  border-radius: 20px;
+  border-radius: 16px;
+  padding: 0 5px 0;
+}
+
+.section-food {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.section-food img {
+  max-width: 70px;
+}
+
+.list-food {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li:before {
+  content: '- ';
 }
