@@ -2,6 +2,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  background-color: #c2e6ea;
 }
 
 img {
@@ -22,6 +23,7 @@ header {
   font-family: "elza", sans-serif;
   font-weight: 400;
   font-style: normal; 
+  font-size: 15px;
 }
 
 video {
@@ -53,13 +55,10 @@ a:visited {
   justify-content: space-between;
 }
 
-header img {
-  width: 230px;
-  padding: 20px;
-}
-
-main {
-  background-color: #c2e6ea;
+header img,
+.logo-streetjamfestival {
+  width: 225px;
+  padding: 20px 20px 20px 30px ;
 }
 
 .icon-section-left {
@@ -84,6 +83,7 @@ main {
   margin: 20px 20px 50px;
   background-color: #7fc500;
   padding: 15px;
+  box-shadow: 10px 10px #c52982;
 }
 
 .section-intro h2 {
@@ -92,6 +92,7 @@ main {
 
 .section-graff {
   background-color: #eb9322;
+  box-shadow: 10px 10px #016fb8;
 }
 
 .section-graff h2 {
@@ -100,6 +101,7 @@ main {
 
 .section-skate {
   background-color: #eebc12;
+  box-shadow: 10px 10px #3b48ae;
 }
 
 .section-skate h2 {
@@ -108,6 +110,7 @@ main {
 
 .section-musique {
   background-color: #01b6a3;
+  box-shadow: 10px 10px #cc5319;
 }
 
 .section-musique h2 {
@@ -116,6 +119,7 @@ main {
 
 .section-streetfood {
   background-color: #f2e300;
+  box-shadow: 10px 10px #7421a5;
 }
 
 .section-streetfood h2 {
@@ -124,7 +128,7 @@ main {
 
 footer,
 footer a {
-  color: #eebc12;
+  color: #e4c100;
   text-align: center;
 }
 
@@ -136,9 +140,27 @@ footer a {
 
 .section-contact img {
   max-width: 50px;
-
+  padding: 20px 20px 35px;
 }
 
 footer img {
   width: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "barricada-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hour {
+  background-color: #c2e6ea;
+  border-radius: 20px;
 }
