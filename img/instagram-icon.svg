@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.89 65.45">
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.36 65.11">
   <defs>
     <style>
       .cls-1 {
@@ -7,7 +7,7 @@
       }
 
       .cls-2 {
-        stroke-width: 5.01px;
+        stroke-width: 5.18px;
       }
 
       .cls-2, .cls-3 {
@@ -17,15 +17,15 @@
       }
 
       .cls-3 {
-        stroke-width: 4.74px;
+        stroke-width: 4.9px;
       }
     </style>
   </defs>
   <g id="Footer">
     <g>
-      <rect class="cls-3" x="2.37" y="2.37" width="57.15" height="60.7" rx="15.19" ry="15.19"/>
-      <circle class="cls-2" cx="31.23" cy="32.64" r="14.54"/>
-      <circle class="cls-1" cx="48.53" cy="15.09" r="4.35"/>
+      <rect class="cls-3" x="2.45" y="2.45" width="61.46" height="60.21" rx="15.69" ry="15.69"/>
+      <ellipse class="cls-2" cx="33.49" cy="32.48" rx="15.64" ry="14.42"/>
+      <ellipse class="cls-1" cx="52.09" cy="15.06" rx="4.68" ry="4.31"/>
     </g>
   </g>
 </svg>

@@ -14,6 +14,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  font-size: 40px;
 }
 
 p,
@@ -28,7 +29,8 @@ video {
   border-radius: 20px;
 }
 
-header {
+header,
+footer {
   background-color: #a755b5;
   padding: 20px 20px 50px;
   font-size: 12px;
@@ -36,6 +38,7 @@ header {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
@@ -60,11 +63,12 @@ main {
 }
 
 .icon-section-left {
-  max-width: 55px;
+  max-width: 60px;
+  margin: 0px 10px 15px;
 }
 
 .icon-section-right {
-  width: 55px;
+  width: 60px;
   display: flex;
   align-self: flex-end;
   text-align: right;
@@ -72,10 +76,69 @@ main {
 
 .round-img {
   border-radius: 18px;
+  max-width: 250px;
 }
 
 .section {
-  border-radius: 18px;
+  border-radius: 38px;
   margin: 20px 20px 50px;
   background-color: #7fc500;
+  padding: 15px;
+}
+
+.section-intro h2 {
+  color: #c52982;
+}
+
+.section-graff {
+  background-color: #eb9322;
+}
+
+.section-graff h2 {
+  color: #016fb8;
+}
+
+.section-skate {
+  background-color: #eebc12;
+}
+
+.section-skate h2 {
+  color: #3b48ae;
+}
+
+.section-musique {
+  background-color: #01b6a3;
+}
+
+.section-musique h2 {
+  color: #cc5319;
+}
+
+.section-streetfood {
+  background-color: #f2e300;
+}
+
+.section-streetfood h2 {
+  color: #7421a5;
+}
+
+footer,
+footer a {
+  color: #eebc12;
+  text-align: center;
+}
+
+.section-contact {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-contact img {
+  max-width: 50px;
+
+}
+
+footer img {
+  width: 50px;
 }
