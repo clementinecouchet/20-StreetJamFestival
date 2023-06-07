@@ -71,11 +71,17 @@ header img,
   text-align: right;
 }
 
-.round-img,
-video  {
+.round-img {
   border-radius: 18px;
   max-width: 250px;
   margin: 0 0 40px;
+}
+
+video {
+  border-radius: 18px;
+  max-width: 250px;
+  margin: 0 0 0 5px;
+  border: 10px solid #e4c100;
 }
 
 .section {
