@@ -32,7 +32,7 @@ footer {
 header,
 footer {
   background-color: #a755b5;
-  padding: 20px 20px 50px;
+  padding: 20px 20px 40px;
   font-size: 12px;
 }
 
@@ -66,9 +66,7 @@ header img,
 
 .icon-section-right {
   width: 60px;
-  display: flex;
-  align-self: flex-end;
-  text-align: right;
+  transform: translateX(180px);
 }
 
 .round-img {
@@ -80,8 +78,8 @@ header img,
 video {
   border-radius: 18px;
   max-width: 250px;
-  margin: 0 0 0 5px;
-  border: 10px solid #e4c100;
+  margin: 0 0 0 10px;
+  border: 6px solid #e4c100;
 }
 
 .section {
