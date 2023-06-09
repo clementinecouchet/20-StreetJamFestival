@@ -186,7 +186,7 @@ h3 {
 
 .list-food {
   display: flex;
-  flex-direction: column;
+
   justify-content: space-between;
 }
 
@@ -197,4 +197,17 @@ ul {
 
 li:before {
   content: '- ';
+}
+
+.word-intro {
+  color: #c52982;
+}
+
+.word-graff {
+  color: #016fb8;
+}
+
+.word-skate {
+  color: #3b48ae;
+}
 }
