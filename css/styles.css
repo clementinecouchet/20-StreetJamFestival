@@ -38,10 +38,10 @@ footer {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
-a:visited {
+header a,
+header a:visited {
   color: black;
 }
 
@@ -61,7 +61,7 @@ header img,
 
 .icon-section-left {
   max-width: 60px;
-  margin: 0px 10px 15px;
+  transform: translateX(15px);
 }
 
 .icon-section-right {
@@ -87,13 +87,17 @@ video {
 .section {
   border-radius: 38px;
   margin: 20px 20px 50px;
-  background-color: #7fc500;
   padding: 15px;
-  box-shadow: 10px 10px #c52982;
 }
 
-.section-intro h2 {
+.section-intro h2,
+.word-intro {
   color: #c52982;
+}
+
+.section-intro {
+  box-shadow: 10px 10px #c52982;
+  background-color: #7fc500;
 }
 
 .section-graff {
@@ -101,7 +105,8 @@ video {
   box-shadow: 10px 10px #016fb8;
 }
 
-.section-graff h2 {
+.section-graff h2,
+.word-graff {
   color: #016fb8;
 }
 
@@ -110,7 +115,8 @@ video {
   box-shadow: 10px 10px #3b48ae;
 }
 
-.section-skate h2 {
+.section-skate h2,
+.word-skate {
   color: #3b48ae;
 }
 
@@ -128,18 +134,19 @@ video {
   box-shadow: 10px 10px #7421a5;
 }
 
-.section-streetfood h2 {
+.section-streetfood h2,
+.word-food {
   color: #7421a5;
 }
 
 footer,
-footer a {
+footer a,
+footer a:visited {
   color: #e4c100;
   text-align: center;
 }
 
 .section-contact {
-  justify-content: space-around;
   display: flex;
   flex-direction: row;
 }
@@ -197,20 +204,4 @@ ul {
 
 li:before {
   content: '- ';
-}
-
-.word-intro {
-  color: #c52982;
-}
-
-.word-graff {
-  color: #016fb8;
-}
-
-.word-skate {
-  color: #3b48ae;
-}
-
-.word-food {
-  color: #7421a5;  
 }
